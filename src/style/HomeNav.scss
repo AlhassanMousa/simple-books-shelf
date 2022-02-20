@@ -1,0 +1,64 @@
+// All the magic
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.gridlevel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px;
+  grid-gap: 10px;
+}
+.itemo {
+  padding: 15px 0;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+  border: 3px solid #fff89a;
+  background-color: #406882;
+  text-align: center;
+}
+.itemo h4 {
+  color: #fff89a;
+  font-size: 15px;
+  font-weight: 900;
+  margin: 20px;
+  align-items: center;
+}
+
+.grid {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 30px;
+  grid-gap: 10px;
+  text-align: center;
+}
+
+.levels {
+  padding: 20px 0;
+  border-radius: 10px;
+  background-color: #406882;
+  height: 200px;
+  width: 150px;
+  border: 3px solid #fff89a;
+}
+.levels h4 {
+  color: #fff89a;
+  font-size: 22px;
+  font-weight: 900;
+  margin: 20px 4px;
+  align-items: center;
+  height: 60%;
+}
+
+.divi {
+  display: flex;
+  margin-bottom: 0px !important;
+}
+.divi button {
+  border: 1px solid white;
+  margin: 2px;
+  margin-bottom: 0px !important;
+}
